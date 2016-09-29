@@ -1,0 +1,189 @@
+[ adal ]
+Size: 320K	/usr/local/az/lib/python3.5/site-packages/adal
+Requires: cryptography, requests, PyJWT, python-dateutil
+[ applicationinsights ]
+Size: 476K	/usr/local/az/lib/python3.5/site-packages/applicationinsights
+Requires: 
+[ argcomplete ]
+Size: 120K	/usr/local/az/lib/python3.5/site-packages/argcomplete
+Requires: 
+[ azure ]
+Size: 22M	/usr/local/az/lib/python3.5/site-packages/azure
+Requires: azure-mgmt, azure-servicebus, azure-batch, azure-storage, azure-servicemanagement-legacy
+[ azure-batch ]
+Size: 
+Requires: azure-common, azure-mgmt-nspkg
+[ azure-cli ]
+Size: 
+Requires: azure-cli-core, azure-cli-feedback, azure-cli-configure, azure-cli-storage, azure-cli-vm, azure-cli-component, azure-cli-role, azure-cli-network, azure-cli-profile, azure-cli-resource
+[ azure-cli-component ]
+Size: 
+Requires: pip, azure-cli-core
+[ azure-cli-configure ]
+Size: 
+Requires: azure-cli-core
+[ azure-cli-core ]
+Size: 
+Requires: pygments, requests, applicationinsights, argcomplete, azure-mgmt-dns, colorama, six, azure, tabulate, azure-mgmt-trafficmanager, pyyaml, msrest, adal, msrestazure, jmespath, pip
+[ azure-cli-feedback ]
+Size: 
+Requires: azure-cli-core, applicationinsights
+[ azure-cli-network ]
+Size: 
+Requires: azure-mgmt-dns, azure-cli-core, azure-mgmt-trafficmanager, azure
+[ azure-cli-profile ]
+Size: 
+Requires: azure-cli-core, azure, adal
+[ azure-cli-resource ]
+Size: 
+Requires: azure-cli-core, azure
+[ azure-cli-role ]
+Size: 
+Requires: azure-mgmt-authorization, azure-cli-core, azure-graphrbac, azure
+[ azure-cli-storage ]
+Size: 
+Requires: azure, azure-cli-core
+[ azure-cli-vm ]
+Size: 
+Requires: azure, azure-cli-core
+[ azure-cli-webapp ]
+Size: 
+Requires: azure, azure-mgmt-web, urllib3, azure-cli-core
+[ azure-common ]
+Size: 
+Requires: azure-nspkg
+[ azure-graphrbac ]
+Size: 
+Requires: azure-common
+[ azure-mgmt ]
+Size: 
+Requires: azure-mgmt-resource, azure-mgmt-scheduler, azure-mgmt-redis, azure-mgmt-keyvault, azure-mgmt-network, azure-mgmt-compute, azure-mgmt-logic, azure-mgmt-storage, azure-mgmt-batch
+[ azure-mgmt-authorization ]
+Size: 
+Requires: azure-mgmt-nspkg, azure-common
+[ azure-mgmt-batch ]
+Size: 
+Requires: azure-common, azure-mgmt-nspkg
+[ azure-mgmt-compute ]
+Size: 
+Requires: azure-common, azure-mgmt-nspkg
+[ azure-mgmt-dns ]
+Size: 
+Requires: azure-common, azure-mgmt-nspkg
+[ azure-mgmt-keyvault ]
+Size: 
+Requires: azure-common, azure-mgmt-nspkg
+[ azure-mgmt-logic ]
+Size: 
+Requires: azure-common, azure-mgmt-nspkg
+[ azure-mgmt-network ]
+Size: 
+Requires: azure-mgmt-nspkg, azure-common
+[ azure-mgmt-nspkg ]
+Size: 
+Requires: azure-nspkg
+[ azure-mgmt-redis ]
+Size: 
+Requires: azure-mgmt-nspkg, azure-common
+[ azure-mgmt-resource ]
+Size: 
+Requires: azure-common, azure-mgmt-nspkg
+[ azure-mgmt-scheduler ]
+Size: 
+Requires: azure-common, azure-mgmt-nspkg
+[ azure-mgmt-storage ]
+Size: 
+Requires: azure-mgmt-nspkg, azure-common
+[ azure-mgmt-trafficmanager ]
+Size: 
+Requires: azure-common, azure-mgmt-nspkg
+[ azure-mgmt-web ]
+Size: 
+Requires: azure-common, azure-mgmt-nspkg
+[ azure-nspkg ]
+Size: 
+Requires: 
+[ azure-servicebus ]
+Size: 
+Requires: requests, azure-common
+[ azure-servicemanagement-legacy ]
+Size: 
+Requires: requests, azure-common
+[ azure-storage ]
+Size: 
+Requires: azure-common, python-dateutil, cryptography, azure-nspkg, requests
+[ certifi ]
+Size: 712K	/usr/local/az/lib/python3.5/site-packages/certifi
+Requires: 
+[ cffi ]
+Size: 648K	/usr/local/az/lib/python3.5/site-packages/cffi
+Requires: pycparser
+[ chardet ]
+Size: 1.3M	/usr/local/az/lib/python3.5/site-packages/chardet
+Requires: 
+[ colorama ]
+Size: 72K	/usr/local/az/lib/python3.5/site-packages/colorama
+Requires: 
+[ cryptography ]
+Size: 3.6M	/usr/local/az/lib/python3.5/site-packages/cryptography
+Requires: idna, pyasn1, six, cffi, setuptools
+[ enum34 ]
+Size: 
+Requires: 
+[ idna ]
+Size: 472K	/usr/local/az/lib/python3.5/site-packages/idna
+Requires: 
+[ isodate ]
+Size: 252K	/usr/local/az/lib/python3.5/site-packages/isodate
+Requires: 
+[ jmespath ]
+Size: 148K	/usr/local/az/lib/python3.5/site-packages/jmespath
+Requires: 
+[ keyring ]
+Size: 268K	/usr/local/az/lib/python3.5/site-packages/keyring
+Requires: secretstorage
+[ msrest ]
+Size: 224K	/usr/local/az/lib/python3.5/site-packages/msrest
+Requires: isodate, certifi, chardet, keyring, enum34, requests-oauthlib, requests
+[ msrestazure ]
+Size: 120K	/usr/local/az/lib/python3.5/site-packages/msrestazure
+Requires: msrest
+[ oauthlib ]
+Size: 940K	/usr/local/az/lib/python3.5/site-packages/oauthlib
+Requires: 
+[ pyasn1 ]
+Size: 452K	/usr/local/az/lib/python3.5/site-packages/pyasn1
+Requires: 
+[ pycparser ]
+Size: 884K	/usr/local/az/lib/python3.5/site-packages/pycparser
+Requires: 
+[ Pygments ]
+Size: 5.6M	/usr/local/az/lib/python3.5/site-packages/pygments
+Requires: 
+[ PyJWT ]
+Size: 
+Requires: 
+[ python-dateutil ]
+Size: 
+Requires: six
+[ PyYAML ]
+Size: 
+Requires: 
+[ requests ]
+Size: 2.5M	/usr/local/az/lib/python3.5/site-packages/requests
+Requires: 
+[ requests-oauthlib ]
+Size: 
+Requires: requests, oauthlib
+[ SecretStorage ]
+Size: 84K	/usr/local/az/lib/python3.5/site-packages/secretstorage
+Requires: cryptography
+[ six ]
+Size: 
+Requires: 
+[ tabulate ]
+Size: 
+Requires: 
+[ urllib3 ]
+Size: 556K	/usr/local/az/lib/python3.5/site-packages/urllib3
+Requires: 
