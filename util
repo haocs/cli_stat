@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+AZ_BASE='/usr/local/az'
+AZ_BIN=$AZ_BASE/bin
+PY_VERSION='3.5'
+PY_BASE=$AZ_BASE"/lib/python$PY_VERSION/site-packages"
+
+pip() {
+	$AZ_BIN/python -m pip $@	
+}
+export -f pip
+
+list_deps() {
+	pip freeze | sed "s/==.*//g"
+}
+export -f list_deps
+
+size() {
+	DIR=$PY_BASE/`echo "${@,,}"`
+	if [[ -d $DIR ]]; then
+		du -sh "$DIR"
+	fi
+}
+export -f size
